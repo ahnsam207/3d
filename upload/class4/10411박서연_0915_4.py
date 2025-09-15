@@ -1,0 +1,12 @@
+pr int(5+3)
+pr int(5-3)
+pr int(5*3)
+pr int(5/3)
+pr int(5//3)
+pr int(5%3)
+pr int(5**3)
+
+pr int("김경복")
+pr int("김경"+"복")
+pr int("김"+"경복")
+pr int("김"+"경"+"복")
