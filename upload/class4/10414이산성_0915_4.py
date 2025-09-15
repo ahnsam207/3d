@@ -1,0 +1,12 @@
+print(5 + 3)
+print(5 - 3)
+print(5 * 3)
+print(5 / 3)
+print(5 // 3)
+print(5 % 3)
+print(5 **3)
+
+print("김경복")
+print("김경" + "복")
+print("김" + "경복")
+print("김" + "경" + "복")
