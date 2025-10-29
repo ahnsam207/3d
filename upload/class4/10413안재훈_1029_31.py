@@ -1,0 +1,10 @@
+lst = list()
+lst.append(값)
+lst.sort()
+lst.reverse()
+lst.index(값)
+lst.count(값)
+lst.pop()
+lst.remove(값)
+del(lst[위치]
+len(lst)
