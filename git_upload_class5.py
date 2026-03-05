@@ -12,7 +12,7 @@ uploaded_file = st.file_uploader("파일을 업로드하세요")
 
 if uploaded_file is not None:
     file_content = uploaded_file.getvalue()
-    file_path = f"upload/class4/{uploaded_file.name}"
+    file_path = f"upload/class5/{uploaded_file.name}"
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{file_path}"
 
     encoded_content = base64.b64encode(file_content).decode("utf-8")
@@ -38,4 +38,5 @@ if uploaded_file is not None:
         st.success(f"✅ 파일이 정상적으로 업로드되었습니다.\n\n {uploaded_file.name}")
     else:
         st.error("❌ 업로드 실패 (파일 이름을 확인하세요.)")
+
 
