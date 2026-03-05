@@ -6,7 +6,7 @@ GITHUB_REPO = st.secrets["repo"]  # "username/repo" 형태
 GITHUB_TOKEN = st.secrets["git_token"]
 BRANCH = "main"  # "master"일 수도 있으니 꼭 확인!
 
-st.title("4반 과제 제출")
+st.title("5반 과제 제출")
 
 uploaded_file = st.file_uploader("파일을 업로드하세요")
 
@@ -38,3 +38,4 @@ if uploaded_file is not None:
         st.success(f"✅ 파일이 정상적으로 업로드되었습니다.\n\n {uploaded_file.name}")
     else:
         st.error("❌ 업로드 실패 (파일 이름을 확인하세요.)")
+
